@@ -24,7 +24,7 @@ class AudioManager:
         self.sfx_underground_death.set_volume(0.7)
         
         # Music
-        self.music_path = os.path.join(SFX_DIR, "Game Music.ogg")
+        self.music_path = os.path.join(SFX_DIR, "Game Music.mp3")
         self._current_speed = 1.0
         
     def start_music(self):
